@@ -1,21 +1,38 @@
+:root{
+    --dark:rgb(46,46,54);
+    --lt_yellow:rgb(200,173,68);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
 .main{
     background-color:rgb(37, 37, 37) ;
     margin: 0;
 }
+#yellow_box{
+    max-width: 885px;
+    display: block;
+    margin: -100px auto;
 
+}
 .container{
   padding: 0;
-  display:flex;
+  display: grid;
+  /* display:flex; */
 }
-
+.lt_cont{
+    background-color: var(--dark);
+}
+.rt_align{
+    text-align: right;
+}
 .profile-container{
     background-color: aliceblue;
-    max-width: 1152px;
+    max-width: 885px;
     display: flex;
     padding: 0 0;
     margin: 12px auto;

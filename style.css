@@ -1,5 +1,5 @@
 :root{
-    --dark:rgb(46,46,54);
+    --dark:rgb(45,44,50);
     --lt_yellow:rgb(200,173,68);
 }
 *{
@@ -57,4 +57,7 @@
 }
 .headings{
     font-size: 3rem;
+}
+.hr_line{
+    border-top: 2px solid black;
 }

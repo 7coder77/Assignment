@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color:rgb(37, 37, 37) ;
+    margin: 0;
+}
+
+.container{
+  padding: 0;
+  display:flex;
+}
+
+.profile-container{
+    background-color: aliceblue;
+    max-width: 1152px;
+    display: flex;
+    padding: 0 0;
+    margin: 12px auto;
+    /* box-sizing: content-box; */
+}
+.left{
+    max-width: 300px;
+}
+.right{
+    display: block;
+    min-width: auto;
+    width: 852px;
+}
+#heading{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.headings{
+    font-size: 3rem;
+}

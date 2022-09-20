@@ -8,9 +8,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+.grid_al{
+    display: grid;
+    grid-template-columns: auto max-content; 
+    align-items:right;
+}
 .main{
-    background-color:rgb(37, 37, 37) ;
+    background-color:rgb(229, 233, 183) ;
     margin: 0;
 }
 #yellow_box{

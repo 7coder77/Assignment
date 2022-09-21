@@ -45,6 +45,7 @@
 }
 .left{
     max-width: 300px;
+    width: 300px;
 }
 .right{
     display: block;
@@ -61,3 +62,18 @@
 .hr_line{
     border-top: 2px solid black;
 }
+.progressContainer {
+    display: inline-block;
+    width: 100px;
+    height: 14px;
+    border: 1px solid var(--lt_yellow);
+    background-color: var(--lt_yellow);
+    margin-left: 70px;
+  }
+  
+.progress {
+    display: block;
+    height: 100%;
+    background-color: var(--dark);
+    align-content: right;
+  }
